@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Application", "01-Application", "{D38ACA23-ABBB-4116-82DE-FAE25969109B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Infrastructure", "02-Infrastructure", "{EACB9896-181C-4D30-90DF-13E1D129293B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-DomainServices", "03-DomainServices", "{6B21322E-4413-487B-A1C6-943DAFAA0517}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-Domain", "04-Domain", "{37285573-2096-4F0A-AFCA-3EA523FB63FD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SedolChecker.WebAPI", "SedolChecker.WebAPI\SedolChecker.WebAPI.csproj", "{D39DBE03-E78F-4C09-9D3B-B9985F60B96D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SedolChecker.Domain.Services", "SedolChecker.Domain.Services\SedolChecker.Domain.Services.csproj", "{F2F77E35-7A6A-46FD-9937-C01D9CFB2995}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SedolChecker.Domain", "SedolChecker.Domain\SedolChecker.Domain.csproj", "{6DD62DD5-5920-4BAD-86B2-F5BCEA6F2D11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.UnitTests", "Domain.UnitTests\Domain.UnitTests.csproj", "{8EB3FBB1-35A0-4915-A07F-45215FB590D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D39DBE03-E78F-4C09-9D3B-B9985F60B96D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D39DBE03-E78F-4C09-9D3B-B9985F60B96D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D39DBE03-E78F-4C09-9D3B-B9985F60B96D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D39DBE03-E78F-4C09-9D3B-B9985F60B96D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2F77E35-7A6A-46FD-9937-C01D9CFB2995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2F77E35-7A6A-46FD-9937-C01D9CFB2995}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2F77E35-7A6A-46FD-9937-C01D9CFB2995}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2F77E35-7A6A-46FD-9937-C01D9CFB2995}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DD62DD5-5920-4BAD-86B2-F5BCEA6F2D11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DD62DD5-5920-4BAD-86B2-F5BCEA6F2D11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DD62DD5-5920-4BAD-86B2-F5BCEA6F2D11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DD62DD5-5920-4BAD-86B2-F5BCEA6F2D11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EB3FBB1-35A0-4915-A07F-45215FB590D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EB3FBB1-35A0-4915-A07F-45215FB590D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EB3FBB1-35A0-4915-A07F-45215FB590D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EB3FBB1-35A0-4915-A07F-45215FB590D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D39DBE03-E78F-4C09-9D3B-B9985F60B96D} = {D38ACA23-ABBB-4116-82DE-FAE25969109B}
+		{F2F77E35-7A6A-46FD-9937-C01D9CFB2995} = {6B21322E-4413-487B-A1C6-943DAFAA0517}
+		{6DD62DD5-5920-4BAD-86B2-F5BCEA6F2D11} = {37285573-2096-4F0A-AFCA-3EA523FB63FD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {692480BE-0271-4968-A28D-4FAA2D1458C9}
+	EndGlobalSection
+EndGlobal
